@@ -4,7 +4,8 @@
   "description": "This is my site. Be Cool.",
   "main": "app.js",
   "scripts": {
-    "test": "apptest"
+    "test": "apptest",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/SanSantas/drega/issues"
   },
-  "homepage": "https://github.com/SanSantas/drega#readme"
+  "homepage": "https://github.com/SanSantas/drega#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }

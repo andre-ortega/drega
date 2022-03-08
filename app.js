@@ -6,7 +6,7 @@ app.use(express.static('public'));
 app.use('/static', express.static('public'));
 
 app.get('/', (req, res) => {
-  res.send('<body style="background-color: #1d2021;"><div><meta charset="UTF-8"><p style="font-size:24px; text-align:center; color:#ebdbb2">That\'s all for now</p><p style="font-size:14px; text-align:center; color:#ebdbb2">(go away)</p></div></body>')
+  res.send('...')
 })
 
 app.listen(port, () => {

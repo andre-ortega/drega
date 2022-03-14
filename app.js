@@ -5,8 +5,9 @@ const express = require('express');
 const router = express.Router();
 const session = require('express-session');
 const ejsMate = require('ejs-mate');
-
 const ExpressError = require('./utils/ExpressError');
+
+const loginRoutes = require('./routes/login');
 
 const path = require('path');
 const app = express();
@@ -22,6 +23,10 @@ app.set('view engine', 'ejs');
 app.get('/', (req, res) => {
   res.send('<body style="background-color: #1d2021;"><div><meta charset="UTF-8"><p style="font-size:24px; text-align:center; color:#ebdbb2">[void]</p></div></body>')
 })
+
+router.get('/login', (req, res) => {
+  res.render('./routes/login');
+});
 
 app.all('*', (req, res, next) => {
     next(new ExpressError('Page Not found', 404))

@@ -1,6 +1,6 @@
 // alternative to wrapping server code in try/catch
-module.exports = func => {
+module.exports = funky => {
     return (req, res, next) => {
-        func(req, res, next).catch(next);
+        funky(req, res, next).catch(next);
     }
 }

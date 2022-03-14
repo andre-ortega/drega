@@ -20,19 +20,19 @@ app.engine('ejs', ejsMate);
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
-app.get('/', (req, res) => {
-  res.send('<body style="background-color: #1d2021;"><div><meta charset="UTF-8"><p style="font-size:24px; text-align:center; color:#ebdbb2">[void]</p></div></body>')
-})
+app.use('/', loginRoutes);
 
-router.get('/login', (req, res) => {
-  res.render('./routes/login');
+app.get('/', (req, res) => {
+    res.render('home');
 });
+
 
 app.all('*', (req, res, next) => {
     next(new ExpressError('Page Not found', 404))
 });
 
 app.use((err, req, res, next) => {
+    console.log(err);
     const { statusCode = 500 } = err;
     if(!err.message) err.message = 'Oh no! Something Went Wrong!';
     res.status(statusCode).render('error', { err });

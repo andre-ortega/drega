@@ -22,11 +22,6 @@ app.set('view engine', 'ejs');
 
 app.use('/', loginRoutes);
 
-app.get('/', (req, res) => {
-    res.render('home');
-});
-
-
 app.all('*', (req, res, next) => {
     next(new ExpressError('Page Not found', 404))
 });

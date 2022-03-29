@@ -1,0 +1,16 @@
+/*
+body {
+    font-family: 'Inconsolata', monospace;
+    background-color: #1d2021;
+    color: #ebdbb2;
+    text-align: center;
+}
+*/
+body {
+    height: 100vh;
+    background-image: url('dre.jpg');
+    background-color: #1d2021;
+    color: #ebdbb2;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+}

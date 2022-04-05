@@ -1,50 +1,171 @@
-/*
-body {
-    font-family: 'Inconsolata', monospace;
-    background-color: #1d2021;
-    color: #ebdbb2;
-    text-align: center;
-}
+/* steal like an artist 
+ * https://codepen.io/Bergability/pen/ByqyOP
+ */
 
 body {
-    height: 100vh;
-    background-image: url(dre.jpg);
-    background-color: #1d2021;
-    color: #ebdbb2;
+    //background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url(../bw.jpg); 
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../nether.png); 
+    //filter: grayscale(100%);
+    height: 95vh;
     font-family: 'Inconsolata', monospace;
     text-align: center;
-}
-*/
-
-body{
-    height: 100vh;
-    font-family: 'Inconsolata', monospace;
-    text-align: center;
-    color: #ebdbb2;
+    color: #b2b2b2;
     background-size: cover;
     background-position: center;
     text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
-    background-color: #1d2021;
+    background-color: #212121;
 }
 
-main {
+a:link{
+    color: #ebdbb2;
+}
+
+a:visited {
+    color: #ebdbb2;
+}
+
+.censored {
     position: absolute;
-    top: 50%;
+    top: 38%;
+    left: 0%;
+    height: 50px;
+    width: 30%;
+    background-color: #9d0006;
+}
+
+.detail {
+    position: absolute;
+    top: 14%;
+    left: 0%;
+    height: 50px;
+    width: 30%;
+    background-color: #076678;
+}
+
+.members {
+    font-size: 1.0em;
+    color: #CCCCCC;
+}
+
+.detail2 {
+    position: absolute;
+    top: 61%;
+    left: 0%;
+    height: 50px;
+    width: 30%;
+    background-color: #d79921;
+}
+
+.title {
+    background-color: #000000;
+    position: relative;
+    display: inline-block;
+    left: 20px;
+    width: 100%;
+}
+
+.phones {
+	position: absolute;
+    top: 40%;
     left: 50%;
-    margin-top: -50px;
-    margin-left: -50px;
+    margin-top: -90px;
+    margin-left: -40px;
     width: 100px;
     height: 100px;
+    color: #CCCCCC;
 }
 
 footer {
     position: fixed;
-    top: 95%;
+    top: 96%;
     width: 100%;
+    height: 60px;
+    color: #646464;
+    background-color: #000000;
+}
+
+.container {
+	position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -155px;
+    width: 100px;
     height: 100px;
-    background-color: #1d2021;
+}
+
+form {
+    background-color: #000000;
+    width: 325px;
+    height: 110px;
+    overflow: auto;
+    box-shadow: 0px 0px 8px 1px rgba(100, 100, 100, 1)
 }
 
 label {
+    position: relative;
+    display: inline-block;
+    color: #CCCCCC;
+	left: -85px;
+    font-size: 1.1em;
+    transition: all .125s ease;
+    z-index: 10;
+    top: -22px;
+}
 
+.input-container {
+    width: 75%;
+    position: relative;
+    margin: 10px auto -25px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    font-size: 1.15em;
+    //padding: 0 0 5px 0;
+    color: #fabd2f;
+
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 1px #b2b2b2;
+    outline: none;
+    z-index: 20;
+}
+
+input[type="text"]:focus ~ label, input[type="text"]:valid ~ label {
+    left: 85px;
+}
+
+input[type="password"]:focus ~ label, input[type="password"]:valid ~ label {
+    left: 85px;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    margin: auto;
+    width: 50%;
+    background-color: #1d1d1d;
+    color: #d7d7d7;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.1em;
+    //padding: 10px 0;
+    border: solid #060606;
+    border-width: 0 0 4px 0;
+    border-radius: 1px;
+    margin-top: 8px;
+    outline: none;
+}
+
+input[type="submit"]:hover {
+  background: #212121;
+  border: solid #141414;
+  border-width: 0 0 4px 0;
+}
+
+input[type="submit"]:active {
+  background: #212121;
+  border: solid transparent;
+  border-width: 0 0 0px 0;
 }

@@ -4,8 +4,8 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>d-_-b</title>
-    <meta name="Drega" content="Login page for drega.dev">
+    <title>Andre</title>
+    <meta name="Temp Name" content="Login page for drega.dev">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,24 +13,43 @@
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="/stylesheets/login.css">
-
 </head>
 
-<body style="background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url(dre.jpg)">
-    <h1>d-_-b</h1>
-    <h2>[...]</h2>
+<body>
+    <h1 class="title">- = HIT RETURN = -</h1>
+    
+    <h1 class="phones">d-_-b</h1>
 
-    <main>
-        <form action="/nada" method="post">
-            <label class="form-label" for="username">username</label>
-            <input class="text" type="text" name="username" value="username" id="username" required>
-            <label class="form-label" for="password">password</label>
-            <input class="text" type="password" name="username" value="username" id="password" required>
+    <div class="detail"><p class="members"><a href="">Software</a></p></div>
+    <div class="censored"><p class="members"><a href=""></a></p></div>
+    <div class="detail2"><p class="members"><a href=""></a></p></div>
+
+    <div class="container">
+        <form action="/nada" method="POST">
+
+            <div class="input-container">
+                <input required type="text" name="username"/>
+                <label>Username</label>
+            </div>
+
+            <div class="input-container">
+                <input required type="password" name="password" />
+                <label>Password</label>
+            </div>
+
+            <div class="input-container">
+                <input type="submit" value="Enter" class="lebutt">
+            </div>
+
         </form>
-    </main>
+    </div>
 
     <footer>
-        <p>&copy; 2022 DREGA</p>
+        <p>&copy; 2022 ANDRE</p>
     </footer>
     
+    <script>
+        let butt = document.querySelector(".lebutt");
+        butt.disabled = false;
+    </script>
 </body>

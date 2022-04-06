@@ -3,10 +3,9 @@ const router = express.Router();
 const catchAsync = require('../utils/catchAsync');
 
 //const { isLoggedIn, isAuthor, validateCampground } = require('../middleware.js');
-const logins = require('../controllers/login');
-
+const homies = require('../controllers/home');
 
 router.route('/')
-    .get(logins.login);
+    .get(homies.home);
 
 module.exports = router;

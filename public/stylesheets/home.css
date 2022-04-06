@@ -1,0 +1,90 @@
+/* steal like an artist 
+ * https://codepen.io/Bergability/pen/ByqyOP
+ */
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../nether.png); 
+    background-repeat: no-repeat;
+    height: 95vh;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    color: #b2b2b2;
+    background-size: cover;
+    background-position: center;
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+    background-color: black;
+}
+
+.titlebox {
+	position: relative;
+    top: 8%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -335px;
+    height: 70px;
+    width: 650px;
+    background-color: black;
+}
+
+h1 {
+    vertical-align: middle;
+    bottom: 4px;
+}
+
+.hello {
+    margin-top: 50px;
+    position: relative;
+    left: 5%;
+    height: 600px;
+    width: 400px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    background-color: black;
+    color: #ebdbb2;
+    text-align: left;
+}
+
+::selection {
+    background: #5d0006;
+}
+
+.pcenter {
+    text-align: center;
+}
+ 
+::-moz-selection {
+  background: #ffb7b7; /* Gecko Browsers */
+}
+
+.portfolio-title {
+	position: relative;
+    top: 100%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -355px;
+    height: 90px;
+    width: 700px;
+    background-color: black;
+}
+
+a:link{
+    color: #ebdbb2;
+}
+
+a:visited {
+    color: #ebdbb2;
+}
+
+.title {
+    background-color: #000000;
+    position: relative;
+    display: inline-block;
+    left: 20px;
+    width: 100%;
+}
+
+.footer {
+    position: absolute;
+    top: 200%;
+}

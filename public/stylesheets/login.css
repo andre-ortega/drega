@@ -16,6 +16,11 @@ body {
     background-color: #212121;
 }
 
+.titlebox {
+    height: 200px;
+    background-color: black;
+}
+
 a:link{
     color: #ebdbb2;
 }

@@ -7,6 +7,6 @@ const { cloudinary } = require('../cloudinary');
 */
 
 // File where we are exporting specific functions
-module.exports.login = (req, res) => {
-    res.render('login');
+module.exports.home = (req, res) => {
+    res.render('home');
 }

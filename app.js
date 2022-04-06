@@ -7,7 +7,7 @@ const session = require('express-session');
 const ejsMate = require('ejs-mate');
 const ExpressError = require('./utils/ExpressError');
 
-const loginRoutes = require('./routes/login');
+const homeRoutes = require('./routes/home');
 
 const path = require('path');
 const app = express();
@@ -35,7 +35,7 @@ const sessionConfig = {
     },
 }
 
-app.use('/', loginRoutes);
+app.use('/', homeRoutes);
 
 app.all('*', (req, res, next) => {
     next(new ExpressError('Page Not found', 404))

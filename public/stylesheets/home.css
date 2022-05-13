@@ -3,12 +3,13 @@
  */
 
 body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../nether.png); 
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../tilted2bw.png); 
     background-repeat: no-repeat;
     height: 95vh;
     font-family: 'Inconsolata', monospace;
     text-align: center;
-    color: #b2b2b2;
+    color: #f2f2f2;
+    //color: #d79921;
     background-size: contain;
     background-position: center;
     text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
@@ -25,7 +26,8 @@ body {
     width: 650px;
     background-color: black;
     border: none;
-    border-bottom: 2px solid #b2b2b2;
+    //border-bottom: 2px solid #b2b2b2;
+    border-bottom: 2px solid #d79921;
 }
 
 h1 {
@@ -37,14 +39,17 @@ h1 {
     margin-top: 50px;
     position: relative;
     left: 5%;
-    height: 535px;
+    height: 500px;
     width: 400px;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 5px;
     background-color: black;
-    color: #ebdbb2;
+    //color: #ebdbb2;
+    color: #f2f2f2;
     text-align: left;
+    //border: 4px solid #b2b2b2;
+    border: 4px solid #d79921;
 }
 
 ::selection {
@@ -52,15 +57,15 @@ h1 {
 }
 
 .pcenter {
-    text-align: center;
+    text-align: right;
+    //margin-right: 2rem;
+    margin-top: 2rem;
 }
 
 .signature {
     text-align: right;
-    margin-right: 2rem;
-    margin-top: 2.5rem;
 }
- 
+
 ::-moz-selection {
   background: #ffb7b7; /* Gecko Browsers */
 }

@@ -16,19 +16,20 @@
 </head>
 
 <body>
-    <div class="titlebox">
+    <div class="titlebox toggle show">
         <h1 class="title">Andre Ortega | Software Developer</h1>
+    </div>
+
+    <div class="hello toggle show">
+        <%- include('partials/hello')  %>
     </div>
 
     <div class="portfolio">
         <h2 class="portfolio-title">Portfolio</h2>
     </div>
 
-    <div class="hello">
-        <%- include('partials/hello')  %>
-    </div>
-
     <footer>
         <p>&copy; 2022 ANDRE ORTEGA</p>
     </footer>
+    <script src="/scripts/home.js"></script>
 </body>

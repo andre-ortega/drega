@@ -46,7 +46,7 @@ h1 {
 }
 
 .hello {
-    margin-top: 100px;
+    margin-top: 150px;
     position: fixed;
     left: 5%;
     height: 500px;
@@ -82,12 +82,17 @@ h1 {
 }
 
 .portfolio {
-    position: relative;
-    top: 100%;
+    position: absolute;
+    top: 20%;
     width: 100%;
     background-color: black;
     z-index: 2;
+    opacity: 0;
+}
 
+.hide {
+    transition: 1s;
+    opacity: 0;
 }
 
 a:link{

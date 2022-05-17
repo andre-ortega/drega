@@ -21,6 +21,8 @@ body {
     background-position: center;
     text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
     background-color: black;
+    margin: 0;
+    padding: 0;
 }
 
 .titlebox {
@@ -79,18 +81,6 @@ h1 {
   background: #ffb7b7; /* Gecko Browsers */
 }
 
-/*
-.portfolio {
-	position: relative;
-    top: 100%;
-    left: 50%;
-    margin-top: -50px;
-    margin-left: -355px;
-    height: 90px;
-    width: 700px;
-    background-color: black;
-}
-*/
 .portfolio {
     position: relative;
     top: 100%;

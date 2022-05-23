@@ -102,11 +102,13 @@ h1 {
 }
 
 .portfolio-items {
-    display: flex;
+    //display: flex;
+    //display: block;
     flex-direction: row;
 }
 
 .item {
+    display: block;
     width: 800px;
     margin: 5%;
     padding-bottom: 10px;

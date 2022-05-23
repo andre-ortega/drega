@@ -102,18 +102,18 @@ h1 {
 }
 
 .portfolio-items {
-    //display: flex;
-    //display: block;
-    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .item {
-    display: block;
+    //display: block;
     width: 800px;
-    margin: 5%;
+    height: 300px;
+    margin-bottom: 10px;
     padding-bottom: 10px;
     border: 2px solid #282828;
-    //text-align: left;
 }
 
 .item-title {
@@ -125,9 +125,18 @@ h1 {
     margin: 10px;
 }
 
-.item-img {
+.item-img-container {
     float: left;
-    width: 390px;
+    display: inline;
+    height: 220px;
+    width: 400px;
+}
+
+.item-img {
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+    margin: auto;
 }
 
 .item-description {

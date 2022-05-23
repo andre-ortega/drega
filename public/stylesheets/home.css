@@ -93,8 +93,9 @@ h1 {
 }
 
 .portfolio-title {
+    text-align: center;
     position: sticky;
-    padding: 15px;
+    padding: 15px 0px;
     top: 0px;
     width: 100%;
     background-color: black;
@@ -105,19 +106,20 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 25px;
 }
 
 .item {
-    //display: block;
     width: 800px;
     height: 300px;
-    margin-bottom: 10px;
     padding-bottom: 10px;
-    border: 2px solid #282828;
+    border: 4px solid #282828;
 }
 
 .item-title {
-    border-bottom: 2px solid #282828;
+    border-bottom: 4px solid #282828;
     text-align: center;
 }
 
@@ -140,7 +142,7 @@ h1 {
 }
 
 .item-description {
-    margin-left: 55%;    
+    margin-left: 52%;    
     text-align: left;
 }
 

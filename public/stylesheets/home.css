@@ -47,7 +47,6 @@ h1 {
     position: relative;
     display: inline-block;
     left: 20px;
-    //position: fixed;
 }
 
 .hello {
@@ -112,7 +111,7 @@ h1 {
     margin: 5%;
     padding-bottom: 10px;
     border: 2px solid #282828;
-    text-align: left;
+    //text-align: left;
 }
 
 .item-title {
@@ -120,16 +119,18 @@ h1 {
     text-align: center;
 }
 
-.inner-item {
+.item-inner {
     margin: 10px;
 }
 
 .item-img {
     float: left;
+    width: 390px;
 }
 
 .item-description {
     margin-left: 55%;    
+    text-align: left;
 }
 
 .hide {

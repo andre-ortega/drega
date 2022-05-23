@@ -27,26 +27,35 @@
     <div class="portfolio hide">
         <h2 class="portfolio-title">Portfolio</h2>
         <div class="spacer"></div>
+
         <div class="portfolio-items">
 
             <div class="item">
+                <div class="item-title">
+                    <h3>YelpCamp</h3>
+                </div>
+                <div class="item-inner">
+                    <div class="item-img">
+                        <img class="item-img" src="/images/yelpcamp.png">
+                    </div>
+                    <div class="item-description">
+                        <%- include('partials/yelpcamp') %> 
+                    </div>
+                </div>
+            </div>
 
+            <div class="item"> <!-- item has the border -->
                 <div class="item-title">
                     <h3>Sudoku Solver</h3>
                 </div>
-
-                <div class="inner-item">
-
+                <div class="item-inner">
                     <div class="item-img">
                         <img class="item-img" src="/images/solver.gif">
                     </div>
-
                     <div class="item-description">
                         <%- include('partials/sudokuSolver') %> 
                     </div>
-
                 </div>
-
             </div>
 
         </div>

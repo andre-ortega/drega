@@ -103,12 +103,11 @@ h1 {
 }
 
 .portfolio-items {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 800px [col-start]);
+    grid-auto-rows: 310px;
+    grid-gap: 20px;
     justify-content: center;
-    //align-items: flex-start;
-    //align-content: flex-start;
-    gap: 25px;
 }
 
 .item {

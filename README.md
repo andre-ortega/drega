@@ -1,4 +1,3 @@
-# YelpCamp
+# DREGA
 
-## Background
-YelpCamp is a large project
+

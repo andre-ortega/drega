@@ -1,3 +1,3 @@
-# DREGA
+# drega.dev
 
 

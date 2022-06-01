@@ -1,6 +1,3 @@
-/* steal like an artist 
- * https://codepen.io/Bergability/pen/ByqyOP
- */
 
 main {
     padding: 0;
@@ -85,7 +82,7 @@ h1 {
 .portfolio {
     position: absolute;
     top: 10%;
-    height: 2000px;
+    height: 4000px;
     width: 100%;
     background-color: black;
     z-index: 3;
@@ -174,4 +171,9 @@ footer {
     position: absolute;
     top: 200%;
     right: 2%
+}
+
+#command {
+    background-color: #404040;
+    border-radius: 4px;
 }

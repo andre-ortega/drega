@@ -220,6 +220,11 @@ footer {
 /* phone size */
 @media (min-width: 400px), (max-device-width: 832px){
 
+	body {
+		margin-left: auto;
+        margin-right: auto;
+	}
+
     /*
     .item {
         background-color: red;

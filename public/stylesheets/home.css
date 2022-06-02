@@ -1,3 +1,4 @@
+
 html {
     padding: 0;
     margin: 0;
@@ -7,7 +8,7 @@ main {
     padding: 0;
     margin: 0;
 }
-
+/*
 body {
     margin: 0;
     padding: 0;
@@ -115,7 +116,7 @@ h1 {
 }
 
 ::-moz-selection {
-  background: #83a598; /* Gecko Browsers */
+  background: #83a598; 
 }
 
 .portfolio {
@@ -221,19 +222,12 @@ footer {
     color: #999999;
 }
 
-/* phone size */
 @media (min-width: 400px), (max-device-width: 832px){
 
 	body {
 		margin-left: auto;
         margin-right: auto;
 	}
-
-    /*
-    .item {
-        background-color: red;
-    }
-    */
 
     .portfolio {
         height: 4400px;
@@ -268,13 +262,7 @@ footer {
     }
 }
 
-/* Half Screen */
 @media (min-width: 833px){
-    /*
-    .item {
-        background-color: orange;
-    }
-    */
 
     .portfolio {
         height: 2400px;
@@ -312,13 +300,7 @@ footer {
     }
 }
 
-/* Full Screen */
 @media (min-width: 1637px){
-    /*
-    .item {
-        background-color: yellow;
-    }
-    */
     .portfolio {
         height: 1400px;
     }
@@ -328,10 +310,8 @@ footer {
     }
 }
 
-/* Big Screen */
 
 
-/* Full Screen */
 @media (min-width: 2500px){
 
     .portfolio {
@@ -340,3 +320,4 @@ footer {
 
 }
 
+*/

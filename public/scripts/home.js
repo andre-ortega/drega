@@ -1,6 +1,12 @@
 console.log('herro');
 IDs = document.querySelectorAll('.toggle');
 portfolio = document.querySelector('.portfolio');
+title = document.querySelector('h1');
+
+/* mobile screen */
+if (typeof screen.orientation !== 'undefined') {i
+    title.setAttribute('color', 'purple')
+}
 
 arrow = document.querySelector('#down-arrow');
 

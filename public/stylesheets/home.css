@@ -218,7 +218,7 @@ footer {
 }
 
 /* phone size */
-@media (min-width: 400px){
+@media (min-width: 400px), (max-device-width: 832px){
 
     /*
     .item {

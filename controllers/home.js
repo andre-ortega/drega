@@ -1,3 +1,5 @@
+/* Unused structure until site expands */
+
 /*
 const Campground = require('../models/campground');
 const mbxGeocoding = require("@mapbox/mapbox-sdk/services/geocoding");

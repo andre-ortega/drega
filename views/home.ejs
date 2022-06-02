@@ -20,9 +20,16 @@
         <h1 class="title">Andre Ortega | Software Developer</h1>
     </div>
 
-    <div class="hello toggle show">
-        <%- include('partials/hello')  %>
+    <div class="hello-container">
+        <div class="hello toggle show">
+            <%- include('partials/hello')  %>
+        </div>
     </div>
+
+    <div id="down-arrow" class="hide animate-frame-one">
+        &#8595;
+    </div>
+    
 
     <div class="portfolio hide">
         <h2 class="portfolio-title">Portfolio</h2>
@@ -237,10 +244,12 @@
             </div>
 
         </div>
+
+        <footer>
+            <p>&copy; 2022 ANDRE ORTEGA</p>
+        </footer>
+
     </div>
 
-    <footer>
-        <p>&copy; 2022 ANDRE ORTEGA</p>
-    </footer>
     <script src="/scripts/home.js"></script>
 </body>

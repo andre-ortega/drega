@@ -1,6 +1,31 @@
 console.log('herro');
 IDs = document.querySelectorAll('.toggle');
-portfolio = document.querySelector('.portfolio')
+portfolio = document.querySelector('.portfolio');
+
+arrow = document.querySelector('#down-arrow');
+
+let scrollSet = false;
+
+setTimeout(() => {
+
+    if (scrollSet === false){
+
+        arrow.classList.remove('hide');
+        arrow.classList.remove('animate-frame-one');
+        arrow.classList.add('animate-frame-two');
+
+        setTimeout(() => {
+            arrow.classList.remove('animate-frame-two');
+            arrow.classList.add('animate-frame-three');
+        }, 400)
+
+        setTimeout(() => {
+            arrow.classList.remove('animate-frame-three');
+            arrow.classList.add('animate-frame-four');
+        }, 600)
+
+    }
+}, 10000)
 
 const scrollStart = function() {
     let y = window.scrollY;
@@ -19,6 +44,9 @@ const scrollStart = function() {
             //document.body.classList.remove('hideImg');
         } 
     }
+
+    arrow.classList.add('hide')
+    scrollSet = true;
 }
 
 window.addEventListener("scroll", scrollStart);

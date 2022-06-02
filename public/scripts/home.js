@@ -3,10 +3,13 @@ IDs = document.querySelectorAll('.toggle');
 portfolio = document.querySelector('.portfolio');
 title = document.querySelector('h1');
 
+title.style.color = 'red';
+
 /* mobile screen */
-if (typeof screen.orientation !== 'undefined') {i
-    title.setAttribute('color', 'purple')
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+	title.style.color = 'purple';
 }
+
 
 arrow = document.querySelector('#down-arrow');
 

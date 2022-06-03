@@ -7,7 +7,6 @@ title = document.querySelector('h1');
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
     document.querySelector('h1').innerText = 'Andre Ortega Software Developer';
     pcenter = document.getElementById('pcenter');
-    pcenter.remove();
 }
 
 arrow = document.querySelector('#down-arrow');

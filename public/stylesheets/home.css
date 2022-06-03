@@ -253,7 +253,7 @@ footer {
     }
 
     .item {
-        width: 400px;
+        width: 380px;
         height: 530px;
     }
 
@@ -261,7 +261,7 @@ footer {
         float: none;
         display: block;
         height: 220px;
-        width: 380px;
+        width: 360px;
     }
 
     .item-description {

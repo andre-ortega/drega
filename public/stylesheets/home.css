@@ -234,6 +234,7 @@ footer {
 	body {
 		margin-left: auto;
         margin-right: auto;
+        background-image: none;
 	}
 
     .titlebox{
@@ -286,6 +287,15 @@ footer {
 }
 
 @media (min-width: 833px){
+
+    body {
+        background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/dark.png); 
+        transition: background 300ms ease-in 200ms;
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top 120px right 50%;
+    }
 
     .titlebox{
         top: 4%;

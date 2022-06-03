@@ -221,6 +221,11 @@ footer {
     border-radius: 4px;
 }
 
+.highlight {
+    background-color: #234538;
+    border-radius: 4px;
+}
+
 #grey {
     color: #999999;
 }
@@ -354,8 +359,6 @@ footer {
         margin-right: 220px;
     }
 }
-
-
 
 @media (min-width: 2500px){
 

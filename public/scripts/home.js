@@ -32,7 +32,7 @@ setTimeout(() => {
         }, 600)
 
     }
-}, 10000)
+}, 13000)
 
 const scrollStart = function() {
     let y = window.scrollY;

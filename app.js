@@ -1,3 +1,5 @@
+console.clear();
+
 const express = require('express');
 const favicon = require('serve-favicon');
 const path = require('path');
@@ -10,8 +12,6 @@ const homeRoutes = require('./routes/home');
 
 const app = express();
 const port = process.env.PORT || 3000;
-
-console.clear();
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, './public')));

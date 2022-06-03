@@ -65,7 +65,7 @@ h1 {
 .hello {
     z-index: 2;
     position: absolute;
-    height: 440px;
+    height: 420px;
     width: 400px;
     border: 4px solid #d79921;
     margin-top: 150px;
@@ -336,7 +336,7 @@ footer {
     .hello {
         z-index: 2;
         position: absolute;
-        height: 440px;
+        height: 420px;
         width: 400px;
         border: 4px solid #d79921;
         margin-top: 150px;

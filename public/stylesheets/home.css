@@ -26,24 +26,28 @@ body {
     background-color: black;
 }
 
-
 .titlebox {
 	position: absolute;
-    top: 6%;
-    left: 50%;
-    margin-top: -50px;
-    margin-left: -335px;
+    top: 4%;
     height: 70px;
-    width: 650px;
+    width: 100%;
     background-color: black;
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.underline {
     border-bottom: 2px solid #d79921;
+    width: 80%;
 }
 
 
 h1 {
     vertical-align: middle;
     bottom: 4px;
+    font-size: 2rem;
 }
 
 .title {
@@ -232,6 +236,9 @@ footer {
         margin-right: auto;
 	}
 
+    .titlebox{
+        top: 3%;
+    }
     .portfolio {
         height: 4400px;
     }
@@ -279,6 +286,10 @@ footer {
 }
 
 @media (min-width: 833px){
+
+    .titlebox{
+        top: 4%;
+    }
 
     .portfolio {
         height: 2400px;

@@ -230,6 +230,10 @@ footer {
     color: #999999;
 }
 
+#finalContainer {
+    margin-top: 40px;
+}
+
 @media (min-width: 400px), (max-device-width: 832px){
 
 	body {

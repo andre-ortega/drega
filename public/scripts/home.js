@@ -6,7 +6,6 @@ title = document.querySelector('h1');
 /* mobile screen */
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
     document.querySelector('h1').innerText = 'Andre Ortega Software Developer';
-    pcenter = document.getElementById('pcenter');
 }
 
 arrow = document.querySelector('#down-arrow');
@@ -57,3 +56,20 @@ const scrollStart = function() {
 }
 
 window.addEventListener("scroll", scrollStart);
+
+
+
+
+const btn = document.getElementById('btn');
+
+btn.addEventListener('click', () => {
+
+    const form = document.getElementById('formContainer');
+
+    if(form.style.display === 'none') {
+        form.style.display = 'block';
+    } else {
+        form.style.display = 'none';
+    }
+
+})

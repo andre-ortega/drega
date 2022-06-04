@@ -3,8 +3,9 @@
 
 <html lang="en">
 <head>
+
     <meta charset="utf-8">
-    <title>Drega</title>
+    <title>drega.dev</title>
     <meta name="Temp Name" content="Login">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -245,6 +246,45 @@
                     </div>
                 </div>
             </div>
+
+        </div>
+
+        <div id="finalContainer">
+
+            <p id="finalMsg">
+                What's next? You tell me.
+            </p>
+
+            <button id="btn">
+                Contact
+            </button>
+        </div>
+
+        <div id="formContainer">
+
+            <form id="form" action="https://formsubmit.co/92cfb8c52a1f0ac7539f4187a22e5f1a"  method="post">
+
+                <!-- Honeypot -->
+                <input type="text" name="_honey" style="display: none;">
+                <!-- Disable Captcha -->
+                <input type="hidden" name="_captcha" value="false">
+                <!-- Redirect success page -->
+                <input type="hidden" name="_next" value="www.drega.dev/success">
+
+                <label for="firstName">First</label>
+                <input type="text" name="name" value="" id="firstName" required>
+
+                <label for="LastName">Last</label>
+                <input type="text" name="Last&nbsp;Name" value="" id="lastName" required>
+
+                <label for="email">email</label>
+                <input type="email" name="email" value="" id="email" required>
+
+                <textarea name="message" placeholder="Message" class="form-control" rows="10" required></textarea>
+
+                <button type="submit">send</button>
+
+            </form>
 
         </div>
 

@@ -1,4 +1,17 @@
 console.log('herro');
+
+function hideForm() {
+    form.classList.add('hideForm');
+    form.classList.remove('showForm');
+    fadeOut.classList.add('hideForm');
+    fadeOut.classList.remove('showFade');
+
+    setTimeout(() => {
+        fadeOut.style.display = 'none';
+        form.style.display = 'none';
+    }, 450)
+}
+
 IDs = document.querySelectorAll('.toggle');
 portfolio = document.querySelector('.portfolio');
 title = document.querySelector('h1');
@@ -40,15 +53,17 @@ const scrollStart = function() {
             element.classList.add('hide');
             element.classList.remove('show');
             portfolio.classList.add('show');
-            //document.body.classList.add('hideImg');
         }
     } else {
         for (element of IDs){
             element.classList.add('show');
             element.classList.remove('hide');
             portfolio.classList.remove('show');
-            //document.body.classList.remove('hideImg');
         } 
+    }
+
+    if (y === 0) {
+        hideForm();
     }
 
     arrow.classList.add('hide')
@@ -79,18 +94,13 @@ btn.addEventListener('click', () => {
 })
 
 const cancel = document.getElementById('cancel');
+const fadeCancel = document.getElementById('fadeOut');
 
 // Hide
 cancel.addEventListener('click', () => {
-    form.classList.add('hideForm');
-    form.classList.remove('showForm');
-    fadeOut.classList.add('hideForm');
-    fadeOut.classList.remove('showFade');
+    hideForm();
+})
 
-    setTimeout(() => {
-        fadeOut.style.display = 'none';
-        form.style.display = 'none';
-    }, 450)
-
-
+fadeOut.addEventListener('click', () => {
+    hideForm();
 })

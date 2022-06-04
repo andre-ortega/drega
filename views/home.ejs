@@ -255,7 +255,7 @@
             </p>
 
             <button id="btn">
-                Contact
+                contact
             </button>
         </div>
 
@@ -263,6 +263,7 @@
         </div>
             
         <div id="formContainer" class="hideForm">
+
             <form id="form" action="https://formsubmit.co/92cfb8c52a1f0ac7539f4187a22e5f1a"  method="post">
                 <!-- Honeypot -->
                 <input type="text" name="_honey" style="display: none;">
@@ -271,19 +272,31 @@
                 <!-- Redirect success page -->
                 <input type="hidden" name="_next" value="https://www.drega.dev/success">
 
-                <label for="firstName">First</label>
-                <input type="text" name="name" value="" id="firstName" required>
+                <div class="nameDivContainer">
 
-                <label for="LastName">Last</label>
-                <input type="text" name="Last&nbsp;Name" value="" id="lastName" required>
+                    <div class="nameDiv">
+                        <label for="firstName">first</label>
+                        <input type="text" name="name" value="" id="firstName" required>
+                    </div>
 
+                    <div class="nameDiv">
+                        <label for="LastName">last</label>
+                        <input type="text" name="Last&nbsp;Name" value="" id="lastName" required>
+                    </div>
+                    
+                </div>
+                
                 <label for="email">email</label>
                 <input type="email" name="email" value="" id="email" required>
 
-                <textarea name="message" placeholder="Message" class="form-control" rows="10" required></textarea>
+                <label for="message">message</label>
+                <textarea id="message" name="" placeholder="..." class="form-control" rows="10" required></textarea>
 
-                <button type="submit">Send</button>
-                <button type="" id="cancel">Cancel</button>
+                <div id="buttons">
+                    <button id="send" type="submit">send</button>
+                    <button id="cancel" type="" id="cancel">cancel</button>
+                </div>
+                
             </form>
         </div>
 

@@ -61,24 +61,36 @@ const btn = document.getElementById('btn');
 const form = document.getElementById('formContainer');
 const fadeOut = document.getElementById('fadeOut');
 
+// Show
 btn.addEventListener('click', () => {
 
-    if(form.style.display === 'block') {
-        form.style.display = 'none';
-        fadeOut.style.display = 'none';
-        form.style.opacity = '0.0';
-    } else {
-        form.style.display = 'block';
-        fadeOut.style.display = 'block';
-        form.style.opacity = '1.0';
-    }
+    fadeOut.style.display = 'block';
+    form.style.display = 'block';
+
+    setTimeout(() => {
+
+        form.classList.add('showForm');
+        form.classList.remove('hideForm');
+        fadeOut.classList.add('showFade');
+        fadeOut.classList.remove('hideForm');
+
+    }, 10)
 
 })
 
 const cancel = document.getElementById('cancel');
 
+// Hide
 cancel.addEventListener('click', () => {
-    form.style.display = 'none';
-    fadeOut.style.display = 'none';
-    form.style.opacity = '0.0';
+    form.classList.add('hideForm');
+    form.classList.remove('showForm');
+    fadeOut.classList.add('hideForm');
+    fadeOut.classList.remove('showFade');
+
+    setTimeout(() => {
+        fadeOut.style.display = 'none';
+        form.style.display = 'none';
+    }, 450)
+
+
 })

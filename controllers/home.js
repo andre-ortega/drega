@@ -6,6 +6,6 @@ module.exports.home = (req, res) => {
 }
 
 // File where we are exporting specific functions
-module.exports.home = (req, res) => {
+module.exports.success = (req, res) => {
     res.render('success');
 }

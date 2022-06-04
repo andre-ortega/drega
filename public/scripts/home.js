@@ -57,19 +57,28 @@ const scrollStart = function() {
 
 window.addEventListener("scroll", scrollStart);
 
-
-
-
 const btn = document.getElementById('btn');
+const form = document.getElementById('formContainer');
+const fadeOut = document.getElementById('fadeOut');
 
 btn.addEventListener('click', () => {
 
-    const form = document.getElementById('formContainer');
-
-    if(form.style.display === 'none') {
-        form.style.display = 'block';
-    } else {
+    if(form.style.display === 'block') {
         form.style.display = 'none';
+        fadeOut.style.display = 'none';
+        form.style.opacity = '0.0';
+    } else {
+        form.style.display = 'block';
+        fadeOut.style.display = 'block';
+        form.style.opacity = '1.0';
     }
 
+})
+
+const cancel = document.getElementById('cancel');
+
+cancel.addEventListener('click', () => {
+    form.style.display = 'none';
+    fadeOut.style.display = 'none';
+    form.style.opacity = '0.0';
 })

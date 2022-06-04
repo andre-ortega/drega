@@ -11,6 +11,6 @@ router.route('/')
     .get(homies.home);
 
 router.route('/success')
-    .get(homies.home);
+    .get(homies.success);
 
 module.exports = router;

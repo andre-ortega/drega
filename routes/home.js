@@ -12,5 +12,4 @@ router.route('/')
 
 router.route('/success', homies.success);
 
-
 module.exports = router;

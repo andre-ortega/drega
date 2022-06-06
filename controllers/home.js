@@ -6,7 +6,7 @@ module.exports.home = (req, res) => {
     console.log(req.flash);
     console.log("\n In home - req.success:")
     console.log(req.success);
-    res.render('home', { messages: req.flash('success') });
+    res.render('home', { message: req.flash('success') });
 }
 
 // File where we are exporting specific functions

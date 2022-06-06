@@ -400,6 +400,10 @@ button {
         color: #f2f2f2;
         text-align: left;
     }
+
+    #formContainer {
+        height: 440px;
+    }
 }
 
 @media (min-width: 833px){
@@ -462,6 +466,10 @@ button {
         background-color: black;
         color: #f2f2f2;
         text-align: left;
+    }
+
+    #formContainer {
+        height: 420px;
     }
 }
 

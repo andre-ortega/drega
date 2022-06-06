@@ -1,7 +1,7 @@
-<% if(message) { %>
-<div id="flash-container">
-    <div id="flash-success">
-        <%= message %>
+<% if(message && message.length) { %>
+    <div id="flash-container">
+        <p id="flash-success">
+            <%= message %>
+        </p>
     </div>
-</div>
 <%} %>

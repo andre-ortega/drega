@@ -10,6 +10,6 @@ const homies = require('../controllers/home');
 router.route('/')
     .get(homies.home);
 
-router.route('/success', homies.success);
+router.get('/success', homies.success);
 
 module.exports = router;

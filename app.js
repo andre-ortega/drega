@@ -48,7 +48,6 @@ app.use((req, res, next) => {
     next();
 })
 
-
 app.use('/', homeRoutes);
 
 app.all('*', (req, res, next) => {

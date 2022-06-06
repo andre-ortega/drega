@@ -2,12 +2,11 @@
 
 // File where we are exporting specific functions
 module.exports.home = (req, res) => {
-    res.render('home');
+    res.render('home', { messages: req.flash('success') });
 }
 
 // File where we are exporting specific functions
 module.exports.success = (req, res) => {
-    console.log('\nATTEMPTING..\n')
     req.flash('success', 'Successfully Sent Email');
     res.redirect('/');
 }

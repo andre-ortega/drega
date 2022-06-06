@@ -7,6 +7,7 @@ module.exports.home = (req, res) => {
     console.log(req.flash);
     console.log("\n In home - req.success:")
     console.log(req.success);
+    console.log(message);
     res.render('home', { message: req.flash('success') });
 }
 

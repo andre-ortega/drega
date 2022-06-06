@@ -97,9 +97,11 @@ const cancel = document.getElementById('cancel');
 const fadeCancel = document.getElementById('fadeOut');
 
 // Hide
-cancel.addEventListener('click', () => {
+cancel.addEventListener('click', function(event){
     hideForm();
-})
+    event.stopPropagation();
+    event.preventDefault();
+}, false)
 
 fadeOut.addEventListener('click', () => {
     hideForm();

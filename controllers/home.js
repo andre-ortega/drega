@@ -7,5 +7,6 @@ module.exports.home = (req, res) => {
 
 // File where we are exporting specific functions
 module.exports.success = (req, res) => {
-    res.render('success');
+    req.flash('success', 'Successfully Sent Email');
+    res.redirect('home');
 }

@@ -18,6 +18,8 @@
 </head>
 
 <body>
+    <%- include('partials/flash') %>
+
     <div class="titlebox toggle show">
         <div class="underline">
             <h1 class="title">Andre Ortega | Software Developer</h1>
@@ -289,8 +291,10 @@
                 <label for="email">email</label>
                 <input type="email" name="email" value="" id="email" required>
 
-                <label for="message">message</label>
-                <textarea id="message" name="" placeholder="..." class="form-control" rows="10" required></textarea>
+                <div class="form-group">
+                    <label for="message">message</label>
+                    <textarea id="message" name="body" placeholder="..." class="form-control" rows="10" required></textarea>
+                </div>
 
                 <div id="buttons">
                     <button id="send" type="submit">send</button>

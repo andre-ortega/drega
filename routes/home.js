@@ -10,7 +10,7 @@ const homies = require('../controllers/home');
 router.route('/')
     .get(homies.home);
 
-router.route('/success')
-    .get(homies.success);
+router.route('/success', homies.success);
+
 
 module.exports = router;

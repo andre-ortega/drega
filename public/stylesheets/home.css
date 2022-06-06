@@ -273,6 +273,7 @@ footer {
     border-radius: 4px;
     width: 40%;
     max-width: 340px;
+    min-width: 300px;
     height: 420px;
     padding: 10px;
 }

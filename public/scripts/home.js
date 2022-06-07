@@ -106,3 +106,10 @@ cancel.addEventListener('click', function(event){
 fadeOut.addEventListener('click', () => {
     hideForm();
 })
+
+// Get the flash message and dismiss it
+const flash = document.querySelector('.flash-container');
+
+setTimeout(() => {
+    flash.classList.add('flash-container-gone');
+}, 750)

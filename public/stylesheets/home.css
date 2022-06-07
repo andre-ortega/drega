@@ -331,7 +331,7 @@ textarea{
 
 #buttons {
     margin-left: 10px;
-    margin-top: 15px;
+    margin-top: 25px;
     text-align: center;
 }
 
@@ -343,6 +343,43 @@ button {
     padding: 10px 24px;
     background-color: black;
     color: #f2f2f2;
+    transition: 0.25s;
+}
+
+button:hover {
+    border-color: #8f3f71;
+    box-shadow: 0 0.5em 0.5em -0.4em white;
+    transform: translateY(-0.20em);
+    cursor: pointer; /* :D */
+}
+
+.flash-container {
+    height: 270px;
+    width: 270px;
+    border-radius: 50%;
+    background-color: #8ec07c;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    display: flex;
+    z-index: 5;
+    left: 50%;
+    top: 50%;
+    transition: 2s;
+}
+
+.flash-container-gone {
+    height: 0%;
+    width: 0%;
+    font-size: 0rem;
+    transform: rotate(180deg);
+    left: 65%;
+    top: 35%;
+    transition: 2s;
+    opacity: 0;
+    background-color: #560002;
 }
 
 @media (min-width: 400px), (max-device-width: 832px){
@@ -402,7 +439,7 @@ button {
     }
 
     #formContainer {
-        height: 430px;
+        height: 450px;
     }
 }
 
@@ -454,8 +491,8 @@ button {
     .hello {
         z-index: 2;
         position: absolute;
-        height: 400px;
-        width: 400px;
+        height: 410px;
+        width: 380px;
         border: 4px solid #d79921;
         margin-top: 150px;
         margin-right: 220px;
@@ -468,7 +505,7 @@ button {
     }
 
     #formContainer {
-        height: 370px;
+        height: 380px;
     }
 }
 

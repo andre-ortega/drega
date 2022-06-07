@@ -1,7 +1,8 @@
 # drega.dev
 
-I always wanted a website, now I have one. No wordpress, no squarespace, no nonsense! 
+I always wanted a website, now I have one. No wordpress, no squarespace, no nonsense! Instead, all 
+code that I understand and created.
 
-This ExpressJS app is currently deployed at [drega.dev](http://www.drega.dev), displaying my software
-development portfolio from my time enrolled at the Oregon State College of Engineering and beyond. This is
-a single page app with only one external route used to contact my email, for now.
+This site is currently deployed at [drega.dev](http://www.drega.dev), displaying my software
+development portfolio from my time enrolled at the Oregon State College of Engineering and beyond.
+The site has one external route that can be used to send a message to my email.

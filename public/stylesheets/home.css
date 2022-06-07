@@ -353,6 +353,15 @@ button:hover {
     cursor: pointer; /* :D */
 }
 
+#send:hover {
+    border-color: #b8bb26;
+    background-color: #ebdbb2;
+}
+
+#cancel:hover {
+    border-color: #cc241d;
+}
+
 .flash-container {
     height: 270px;
     width: 270px;

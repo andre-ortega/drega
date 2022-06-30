@@ -1,6 +1,6 @@
 # drega.dev
 
-I always wanted a website, now I have one. No wordpress, no squarespace, no nonsense! Instead, all 
+I always wanted a website, now I have one. No wordpress, no squarespace, no nonsense. Instead, all 
 code that I understand and created.
 
 This site is currently deployed at [drega.dev](http://www.drega.dev), displaying my software

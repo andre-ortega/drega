@@ -113,3 +113,6 @@ const flash = document.querySelector('.flash-container');
 setTimeout(() => {
     flash.classList.add('flash-container-gone');
 }, 750)
+
+// Eff Spammers
+document.getElementById('send').disabled = true;

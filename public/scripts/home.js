@@ -115,4 +115,4 @@ setTimeout(() => {
 }, 750)
 
 // Eff Spammers
-document.getElementById('send').disabled = true;
+//document.getElementById('send').disabled = true;

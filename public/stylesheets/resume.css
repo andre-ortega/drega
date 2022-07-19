@@ -1,0 +1,15 @@
+html {
+    padding: 0;
+    margin: 0;
+    //background-image: url(https://i.imgur.com/sGl1umo.png); 
+    //background-image: url(https://thumbs.dreamstime.com/b/seamless-circuit-board-pattern-vector-microchip-background-148252353.jpg); 
+    background-image: url(../images/stars2.jpg); 
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    color: #b2b2b2;
+}
+
+main {
+    padding: 0;
+    margin: 0;
+}

@@ -1,9 +1,9 @@
 
 body {
     //background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url(../bw.jpg); 
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../nether.png); 
+    //background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../nether.png); 
     //filter: grayscale(100%);
-    height: 95vh;
+    //height: 95vh;
     font-family: 'Inconsolata', monospace;
     text-align: center;
     color: #b2b2b2;

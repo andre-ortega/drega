@@ -405,6 +405,7 @@ button:hover {
     background-color: #560002;
 }
 
+/* Phone Screen size */
 @media (min-width: 400px), (max-device-width: 832px){
 
 	body {
@@ -472,6 +473,7 @@ button:hover {
 	}
 }
 
+/* regular size */
 @media (min-width: 833px){
 
     body {

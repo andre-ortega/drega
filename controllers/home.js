@@ -10,3 +10,8 @@ module.exports.success = (req, res) => {
     req.flash('hoorah', "email sent!");
     res.redirect('/');
 }
+
+// Resume
+module.exports.resume = (req, res) => {
+    res.render('resume');
+}

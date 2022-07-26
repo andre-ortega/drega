@@ -418,7 +418,8 @@ button:hover {
         top: 3%;
     }
     .portfolio {
-        height: 4400px;
+        /* change this for each added portfolio item */
+        height: 4600px;
     }
 
     .portfolio-items {
